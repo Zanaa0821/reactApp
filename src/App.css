@@ -1,0 +1,443 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+ 
+/* media screen start */
+@media only screen and (min-device-width: 600px) and (max-width: 900px) {
+    .menu-text-center {
+      display: none !important;
+    }
+    .col-sm-6 {
+        float: left;
+        width: 50% !important;
+    }
+    .banner {
+        height: 440px !important;
+        background-image: url(banner-ipad.png) !important;
+    }
+    .banner-text {
+   width: 285px !important;
+   margin-right: 0px !important;
+   margin-top: 100px !important;
+  }
+  .summer {
+    font-size: 50px !important;
+    line-height: 60px !important;
+  }
+  .sale {
+    margin-top: -15px;
+    font-size: 52px !important;
+    line-height: 84.4% !important;
+    margin-right: 50px !important;
+  }
+ 
+  .upto {
+    font-size: 18px !important;
+    line-height: 22px !important;
+    margin-top : 40px !important;
+  }
+  .sixty {
+    font-size: 75px !important;
+    line-height: 90px !important;
+  }
+  .ff {
+    font-size: 35px !important;
+    line-height: 29px !important;
+    margin-top: 46px !important;
+  }
+  .shopnow {
+    width: 145px !important;
+    height: 42px !important;
+    font-size: 18px !important;
+    line-height: 138.19% !important;
+    padding: 9px !important;
+    margin-left: 55px !important;
+  }
+
+  }
+  @media only screen and (min-device-width: 375px) and (max-device-width: 600px)  {
+    .menu-text-center {
+        display: none !important;
+      }
+      .row {
+    margin-top: -10px !important;
+
+      }
+      .col-sm-6 {
+          float: left;
+          width: 50% !important;
+      }
+      .col-sm-12 {
+          float: left;
+          width: 100% !important;
+      }
+      .col-sm-8 {
+          float: left;
+          width: 66.66666% !important;
+      }
+      .col-sm-4 {
+          float: left;
+          width: 33.33333% !important;
+      }
+      .banner {
+          height: 754px !important;
+          margin-bottom: 20px;
+          background-image: url(banner-mobile.png) !important;
+      }
+      .banner-text {
+        height: 400px;
+        float: none !important;
+        margin-left: 13px;
+        width: 350px !important;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.8) 0%, rgba(238, 243, 255, 0.8) 100%);
+        backdrop-filter: blur(50px);
+        border-radius: 9px;
+        margin-top: 0px !important;
+        margin-right: 0px !important;
+        
+    }
+    .summer {
+        font-size: 60px !important;
+        line-height: 72px !important;
+        color: #000000 !important;
+    }
+    .sale {
+    font-size: 62px !important;
+    line-height: 84.4%;
+    /* or 69px */
+    text-align: center;
+    color: #E85757;
+    transform: rotate(-8.99deg);
+    }
+    .sale-percent {
+        display :inline-flex;
+        margin-left: 40px;
+    }
+    .upto {
+        font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px !important;
+    line-height: 24px !important;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 42px !important;
+    color: #000000 !important;
+    
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.09);
+    }
+    .sixty {
+        font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 85px !important;
+    line-height: 102px !important;
+    /* identical to box height */  
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000 !important;
+    
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.09);
+    }
+    .ff {
+        font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px !important;
+    line-height: 41px !important;
+    margin-top: 50px !important;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000 !important;
+    
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.09);
+    }
+    .shopnow {
+        background-color: black !important;
+        width: 167px !important;
+        height: 49px !important;
+        margin-left: 95px !important;
+    
+    }
+    .shopnow > a {
+        color: rgb(255, 255, 255)  !important;
+    }
+    .winter-spice > h2 {
+        font-size: 30px !important;
+        line-height: 138.19%;
+    }
+    .winter-spice > p {
+        font-size: 18px !important;
+        line-height: 138.19%;
+    }
+    
+
+  }
+
+/* media screen end */
+/* header section start */
+
+* {
+    box-sizing: border-box;
+}
+
+.header-area {
+    /* position: absolute;
+    width: 1439.65px; */
+    height: 41.02px;
+    left: 0.17px;
+    top: 0px;
+    background: #3A416F;
+    color: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.col-2{
+    float:left;
+    width: 16.66666667%;
+}
+.col-3{
+    float: left;
+    width: 25%;
+}
+.col-4 {
+    float: left;
+    width: 33.33%;
+}
+.col-5{
+    float: left;
+    width: 41.66666667%;
+    };
+.col-6 {
+    float: left;
+    width: 50%;
+}
+.col-md-6 {
+    float: left;
+    width: 50%;
+}
+.col-7 {
+    float: left;
+    width:  58.33333333%;
+}
+.row {
+    padding: 14px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.menu-text-left {
+    text-align: left;
+  
+    
+}
+
+.menu-text-center {
+    justify-content: center;
+    display: flex;
+    
+}
+
+.menu-text-right {
+    text-align: right;
+}
+.header-link {
+ margin-left: 10px;
+ margin-right: 10px;
+ text-transform:uppercase;
+ text-decoration: none;
+}
+a {
+    color:white;
+}
+/* header end */
+/* banner start */
+.banner {
+    height: 820px;
+    background-image: url(IMG_0668.png);
+    background-repeat: no-repeat;
+}
+.banner-text {
+
+    width: 400px;
+    margin-right: 180px;
+    margin-top: 200px;
+    float: right;
+    color: white;
+}
+.summer {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 90px;
+    line-height: 108px;
+    /* identical to box height */
+    
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    
+    text-shadow: 0px 2px 4px rgb(0 0 0 / 9%);
+}
+.sale {
+    font-family: Mr Dafoe;
+font-style: normal;
+font-weight: normal;
+font-size: 82px;
+line-height: 84.4%;
+/* or 69px */
+
+text-align: center;
+
+color: #E85757;
+
+transform: rotate(-8.99deg);
+}
+.sale-percent {
+    display :inline-flex
+}
+.upto {
+    font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 38px;
+text-align: center;
+text-transform: uppercase;
+margin-top: 62px;
+color: #FFFFFF;
+
+text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.09);
+}
+.sixty {
+    font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 135px;
+line-height: 162px;
+/* identical to box height */
+margin-left:18px;
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.09);
+}
+.ff {
+    font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 64px;
+line-height: 48px;
+margin-top: 84px;
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.09);
+}
+.shopnow {
+    width: 190px;
+    height: 55px;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 120px;
+    padding: 15px;
+}
+.shopnow > a {
+    color: black;
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 138.19%;
+}
+/* banner end */
+/* winter spice start */
+section > .row{ 
+   margin-top: 30px;
+}
+.winter-spice{
+    text-align: center;
+}
+.winter-spice > h2 {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 132%;
+    text-transform: uppercase;
+}
+.winter-spice > p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 138.19%;
+    color: #636363;
+}
+.winter-spice > .shopnow {
+    background-color: #272727 !important;
+   
+}
+.winter-spice > .shopnow > a {
+    color: white !important;
+}
+.col-2 > img {
+    width: 100%;
+    margin-top: -3px;
+}
+.col-4 > img {
+    width: 100%;
+}
+/* winter spice end */
