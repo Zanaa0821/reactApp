@@ -64,7 +64,7 @@ function App() {
        <section>
           <div className="container">
          <div className="row winter-spice-1">
-            <div className="col-md-6 col-sm-12">
+            <div className="col-md-6 col-sm-12 col-6">
               <div className="winter-spice">
             <h2>
               winter spice 2020
@@ -89,14 +89,14 @@ function App() {
        <section>
           <div className="container">
              <div className="row">
-               <div className="col-4">
+               <div className="col-4 col-sm-6">
                   <img src={women_1} />
                </div>
                <div className="col-4">
                   <h2 className="women-text">WOMEN</h2>
                   <img src={women_2} />
                </div>
-               <div className="col-4">
+               <div className="col-4 col-sm-6">
                <img src={women_1} />
                </div>
             </div>
@@ -121,7 +121,7 @@ function App() {
        <section>
           <div className="row">
              <div className="container shop-list">
-                <h2 className="menu-text-center shop-list-title">TO GET  AND TO GIFT</h2>
+                <h2 className=" shop-list-title">TO GET  AND TO GIFT</h2>
                 <div className="col-3 col-sm-6">
                    <div className="post">
                      <div className="post-image">
@@ -211,7 +211,7 @@ function App() {
                <div className="col-8">
                   <img className="aboutus-big" src={aboutus_big} />
                </div>
-               <div className="col-4 ">
+               <div className="col-4 col-sm-12">
                   <div className="aboutus">
                   <h1 className="aboutus-title menu-text-center">ABOUT US </h1>
                   <div className="aboutus-text p-30">
@@ -256,7 +256,7 @@ function App() {
          <div className="row">
             <div className="footer-menu">
                <div className="footer-menu-item">
-                  <div className="footer-item">
+                  <div className="footer-item col-sm-12">
                      <h3>ABOUT US</h3>
                      <ul>
                         <li>Our History</li>
@@ -265,7 +265,7 @@ function App() {
                         <li>Sustainability</li>
                      </ul>
                   </div>
-                  <div className="footer-item">
+                  <div className="footer-item col-sm-12">
                      <h3> POLICY</h3>
                      <ul>
                         <li>Shipping & Return Policy</li>
@@ -274,7 +274,7 @@ function App() {
                         <li>Return Portal</li>
                      </ul>
                   </div>
-                  <div className="footer-item">
+                  <div className="footer-item col-sm-12">
                      <h3>CUSTOMER SERVICE</h3>
                      <ul>
                         <li>General Terms and Conditions</li>
@@ -283,7 +283,7 @@ function App() {
                         <li>FAQ</li>
                      </ul>
                   </div>
-                  <div className="footer-item">
+                  <div className="footer-item col-sm-12">
                      <h3>CUSTOMER SERVICE</h3>
                      <ul>
                         <li>General Terms and Conditions</li>
@@ -293,7 +293,7 @@ function App() {
                      </ul>
                   </div>
                </div>
-               <div className="footer-item">
+               <div className="footer-item col-sm-12">
                <h3>FOLLOW US</h3>
                      <ul>
                         <li><img /></li>

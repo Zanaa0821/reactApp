@@ -209,7 +209,31 @@
         font-size: 18px !important;
         line-height: 138.19%;
     }
-    
+    .women-text  {
+        font-size:22px !important;
+    }
+    .shop-list {
+        margin-right: 0px  !important;
+        margin-left: 0px !important;
+    }
+  
+    .subscribe {
+        width: 200px !important;
+    }
+    .aboutus-small > img {
+        float: none !important;
+        width: 93px !important;
+        margin-top : 0px !important;
+    }
+    .winter-spice > .shopnow {
+        margin-left: 60px !important;
+    }
+    .shop-list-title {
+        font-size: 22px;
+    }
+    .shop-list-text { 
+        height: 45px !important;
+    }
 
   }
 
@@ -485,6 +509,7 @@ display: flex;
 align-items: flex-end;
 text-align: center;
 text-transform: uppercase;
+justify-content: center;
 }
 .shop-list-text {
 font-family: Lato;
@@ -667,15 +692,11 @@ color: #4F5255;
     width: 20%;
     float: left;
 }
-.footer-item > ul {
-    /* padding :0; */
-    
-}
 .footer-item > ul > li {
     list-style-type: none;
     font-family: Roboto;
     font-style: normal;
-    ont-weight: normal;
+    font-weight: normal;
     font-size: 14px;
     line-height: 16px;
     color: #5F5F5F;
