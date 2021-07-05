@@ -88,6 +88,10 @@
     padding: 9px !important;
     margin-left: 55px !important;
   }
+  .shop-list {
+      margin-right: 0px !important;
+      margin-left: 0px !important;
+  }
 
   }
   @media only screen and (min-device-width: 375px) and (max-device-width: 600px)  {
@@ -215,7 +219,9 @@
 * {
     box-sizing: border-box;
 }
-
+.container{
+    padding : 2em;
+}
 .header-area {
     /* position: absolute;
     width: 1439.65px; */
@@ -242,6 +248,10 @@
 .col-4 {
     float: left;
     width: 33.33%;
+}
+.col-8 {
+    float: left;
+    width: 66.66%;
 }
 .col-5{
     float: left;
@@ -409,6 +419,7 @@ section > .row{
 }
 .winter-spice{
     text-align: center;
+    margin-top: 13vw;
 }
 .winter-spice > h2 {
     font-family: Lato;
@@ -436,8 +447,254 @@ section > .row{
 .col-2 > img {
     width: 100%;
     margin-top: -3px;
+    padding:3px;
+    padding-left:3px;
 }
 .col-4 > img {
     width: 100%;
 }
+.women-text {
+    font-family: Lato;
+font-style: normal;
+font-weight: 900;
+font-size: 50px;
+line-height: 60px;
+/* identical to box height */
+text-align: center;
+text-transform: uppercase;
+}
+
 /* winter spice end */
+/* shop-list start*/
+.post{
+    margin:5px;
+}
+.shop-list{
+    margin-right:  273px;
+    margin-left: 273px;
+    
+}
+.shop-list-title{
+    font-family: Lato;
+font-style: normal;
+font-weight: 800;
+font-size: 36px;
+line-height: 48px;
+/* identical to box height, or 133% */
+display: flex;
+align-items: flex-end;
+text-align: center;
+text-transform: uppercase;
+}
+.shop-list-text {
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 16px;
+/* or 133% */
+letter-spacing: 1px;
+color: #212121;
+height: 32px;
+}
+.discount {
+    margin: 4px;
+    font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 11px;
+line-height: 14px;
+/* or 127% */
+letter-spacing: 1px;
+/* States & More / Red (Error) */
+color: #B00020;
+}
+.price {
+    margin: 4px;
+    font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 11px;
+line-height: 14px;
+/* or 127% */
+letter-spacing: 1px;
+text-decoration-line: line-through;
+color: #212121;
+
+}
+
+
+.shop-list-image{
+    width: 100%;
+    height: auto;
+}
+
+/* shop-list end */
+/* about us */
+.aboutus {
+    background: #F5F7F6;
+}
+.aboutus-big {
+    width: 100%;
+}
+.m-t-100 {
+    margin-top: 100px;
+}
+.aboutus-title {
+    font-family: Lato;
+font-style: normal;
+font-weight: 500;
+font-size: 34px;
+line-height: 36px;
+/* or 36px */
+
+letter-spacing: 0.01em;
+text-transform: uppercase;
+
+color: #1F1F1F;
+
+text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.09);
+}
+.aboutus-text {
+    font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 142.3%;
+/* or 23px */
+
+
+color: #353535;
+}
+.p-30 {
+    padding: 30px;
+}
+.grey {
+    background-color: #F5F7F6;
+}
+.aboutus > .shopnow {
+  
+    background-color: #272727 !important;
+}
+.aboutus > .shopnow > a {
+    color:white !important;
+}
+.aboutus-small > img {
+  float:left;
+    width: 200px;
+    margin-top: 150px;
+
+}
+/* about us end */
+/* subscribe start */
+.text-center {
+    text-align :center;
+}
+.text-center > h2 {
+    font-family: Lato;
+font-style: normal;
+font-weight: 800;
+font-size: 36px;
+line-height: 48px;
+/* identical to box height, or 133% */
+
+text-align: center;
+letter-spacing: 1px;
+
+color: #4F5255;
+}
+.text-center > p {
+    font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+text-align: center;
+letter-spacing: 1px;
+
+color: #4F5255;
+}
+#subscribe {
+background: #272727 !important;
+border-radius: 10px;
+color:white;
+border-color: white !important;
+margin: 0px !important;
+}
+.form-group {
+    text-align: center;
+}
+.subscribe {
+    background: #F5F7F6;
+    border-radius: 10px;
+    padding : 15px;
+    width: 630px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+/* identical to box height, or 133% */
+    letter-spacing: 1px;
+    color: #4F5255;
+    border-color: white;
+}
+.form-group > p {
+    font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 13px;
+/* or 130% */
+letter-spacing: 0.5px;
+color: #4F5255;
+}
+.form-group > p > a {
+    color : black !important;
+}
+
+/* subscribe end */
+/* footer start */
+.footer {
+    background: linear-gradient(0deg, #F5F7F6, #F5F7F6), #FFFFFF;background: linear-gradient(0deg, #F5F7F6, #F5F7F6), #FFFFFF;
+}
+.footer-menu {
+    margin-top: 60px;
+}
+.footer-item {
+    width: 20%;
+    float: left;
+}
+.footer-item > ul {
+    /* padding :0; */
+    
+}
+.footer-item > ul > li {
+    list-style-type: none;
+    font-family: Roboto;
+    font-style: normal;
+    ont-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #5F5F5F;
+    margin-top: 16px;
+}
+.footer-menu-item > .footer-item {
+    background-color: white;
+}
+ .footer-item > h3 {
+    margin-top :50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.125em;
+    color: #000000;
+    margin-left: 40px;
+}
+
+
+/* footer end */
