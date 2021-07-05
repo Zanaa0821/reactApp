@@ -121,7 +121,7 @@ function App() {
        <section>
           <div className="row">
              <div className="container shop-list">
-                <h2 className=" shop-list-title">TO GET  AND TO GIFT</h2>
+                <h2 className="shop-list-title">TO GET  AND TO GIFT</h2>
                 <div className="col-3 col-sm-6">
                    <div className="post">
                      <div className="post-image">
@@ -303,7 +303,7 @@ function App() {
                      </ul>
                   </div>
             </div>
-            <p>All content Copyright © 2020 GOBI Cashmere</p>
+            <p className="copyright">All content Copyright © 2020 GOBI Cashmere</p>
          </div>
        </section>
     </div>

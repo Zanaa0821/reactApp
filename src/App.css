@@ -234,6 +234,9 @@
     .shop-list-text { 
         height: 45px !important;
     }
+    .copyright {
+        text-align: center;
+    }
 
   }
 
@@ -717,5 +720,16 @@ color: #4F5255;
     margin-left: 40px;
 }
 
+.copyright {
+    font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 9px;
+line-height: 12px;
+/* identical to box height, or 133% */
 
+
+
+color: #4F5255;
+}
 /* footer end */
