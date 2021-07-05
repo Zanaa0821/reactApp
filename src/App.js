@@ -303,6 +303,7 @@ function App() {
                      </ul>
                   </div>
             </div>
+            <p>All content Copyright © 2020 GOBI Cashmere</p>
          </div>
        </section>
     </div>
